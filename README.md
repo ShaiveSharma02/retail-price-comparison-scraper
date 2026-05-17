@@ -61,37 +61,57 @@ retail-price-comparison-scraper/
     ├── comparator.py
     └── price_utils.py
 
-▶️ Installation
+## ▶️ Installation
+
 Clone the repository:
 
-Bash
-git clone [https://github.com/ShaiveSharma02/retail-price-comparison-scraper.git](https://github.com/ShaiveSharma02/retail-price-comparison-scraper.git)
+```bash
+git clone https://github.com/ShaiveSharma02/retail-price-comparison-scraper.git
 cd retail-price-comparison-scraper
+```
+
 Install dependencies:
 
-Bash
+```bash
 pip install -r requirements.txt
-▶️ Run Terminal Version
-Bash
+```
+
+---
+
+## ▶️ Run Terminal Version
+
+```bash
 python main.py
-▶️ Run Streamlit Dashboard
-Bash
+```
+
+---
+
+## ▶️ Run Streamlit Dashboard
+
+```bash
 python -m streamlit run app.py
-📊 Example Workflow
-Enter a product name
+```
 
-Scraper visits supported e-commerce websites
+---
 
-Extracts live product prices
+## 📊 Example Workflow
 
-Compares pricing across platforms
+1. Enter a product name
+2. Scraper visits supported e-commerce websites
+3. Extracts live product prices
+4. Compares pricing across platforms
+5. Displays the best available deal
 
-Displays the best available deal
+---
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
+
 E-commerce websites frequently update their HTML structure and may block scraping requests.
 
 This project is intended for educational, research, and portfolio purposes only.
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
+
 Shaive Sharma
