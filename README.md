@@ -1,4 +1,3 @@
-````markdown
 # 🛒 Retail Price Comparison Scraper
 
 A Python-based retail price comparison tool that scrapes product prices from multiple e-commerce platforms including Amazon, Flipkart, and Croma.
@@ -11,13 +10,13 @@ Built using Selenium, BeautifulSoup, and Streamlit.
 
 ### Streamlit Dashboard
 
-<img src="assets/app-ui.png" width="900">
+![Streamlit Dashboard](assets/app-ui.png)
 
 ---
 
 ### Live Scraping Workflow
 
-<img src="assets/scraping-demo.png" width="900">
+![Live Scraping Workflow](assets/scraping-demo.png)
 
 ---
 
@@ -61,64 +60,38 @@ retail-price-comparison-scraper/
     ├── scraper.py
     ├── comparator.py
     └── price_utils.py
-```
 
----
-
-## ▶️ Installation
-
+▶️ Installation
 Clone the repository:
 
-```bash
-git clone https://github.com/ShaiveSharma02/retail-price-comparison-scraper.git
+Bash
+git clone [https://github.com/ShaiveSharma02/retail-price-comparison-scraper.git](https://github.com/ShaiveSharma02/retail-price-comparison-scraper.git)
 cd retail-price-comparison-scraper
-```
-
 Install dependencies:
 
-```bash
+Bash
 pip install -r requirements.txt
-```
-
----
-
-## ▶️ Run Terminal Version
-
-```bash
+▶️ Run Terminal Version
+Bash
 python main.py
-```
-
----
-
-## ▶️ Run Streamlit Dashboard
-
-```bash
+▶️ Run Streamlit Dashboard
+Bash
 python -m streamlit run app.py
-```
+📊 Example Workflow
+Enter a product name
 
----
+Scraper visits supported e-commerce websites
 
-## 📊 Example Workflow
+Extracts live product prices
 
-1. Enter a product name
-2. Scraper visits supported e-commerce websites
-3. Extracts live product prices
-4. Compares pricing across platforms
-5. Displays the best available deal
+Compares pricing across platforms
 
----
+Displays the best available deal
 
-## ⚠️ Disclaimer
-
+⚠️ Disclaimer
 E-commerce websites frequently update their HTML structure and may block scraping requests.
 
 This project is intended for educational, research, and portfolio purposes only.
 
----
-
-## 👨‍💻 Author
-
+👨‍💻 Author
 Shaive Sharma
-
-GitHub: https://github.com/ShaiveSharma02
-````
