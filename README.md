@@ -11,13 +11,13 @@ Built using Selenium, BeautifulSoup, and Streamlit.
 
 ### Streamlit Dashboard
 
-![Dashboard](assets/app-ui.png)
+<img src="assets/app-ui.png" width="900">
 
 ---
 
 ### Live Scraping Workflow
 
-![Scraping Demo](assets/scraping-demo.png)
+<img src="assets/scraping-demo.png" width="900">
 
 ---
 
